@@ -1,0 +1,28 @@
+body{
+  height: 100%;
+  width: 90%;
+  font-family: Baskerville, serif;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: -webkit-radial-gradient(rgb(30, 170, 225), rgb(177, 230, 185));
+  background: radial-gradient(rgb(30, 170, 225), rgb(177, 230, 185));
+  background-repeat: no-repeat;
+  background-image: url("https://oasisana.files.wordpress.com/2018/02/medinaorientale-3.jpg");
+  background-blend-mode: lighten;
+}
+
+p {
+  font-size: 20px;
+  color: #3c3c59;
+}
+blockquote {
+  margin-left: 33px;
+  margin-right: 55%;
+  font-size: 160%;
+  background-color: #e6e5ea;
+  border-left: 3px solid #B22222;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
