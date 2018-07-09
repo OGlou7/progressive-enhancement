@@ -1,14 +1,25 @@
+h1{
+  font-family: 'Open Sans', sans-serif;
+}
+
 body{
   height: 100%;
   width: 90%;
   font-family: Baskerville, serif;
   margin-left: 10%;
   margin-right: 10%;
-  background: -webkit-radial-gradient(rgb(30, 170, 225), rgb(177, 230, 185));
-  background: radial-gradient(rgb(30, 170, 225), rgb(177, 230, 185));
   background-repeat: no-repeat;
-  background-image: url("https://oasisana.files.wordpress.com/2018/02/medinaorientale-3.jpg");
-  background-blend-mode: lighten;
+  background-image: url("https://samfindsfaith.files.wordpress.com/2013/09/9780801015625.jpg"),
+   -webkit-radial-gradient(rgb(30, 170, 225), rgb(177, 230, 185));
+   background-image: url("https://samfindsfaith.files.wordpress.com/2013/09/9780801015625.jpg"),
+     radial-gradient(rgb(30, 170, 225), rgb(177, 230, 185));
+  background-size: 100% 100%;
+  /* background-size: cover;   */
+  background-blend-mode: overlay;
+}
+
+li{
+  height: 55px;
 }
 
 p {
@@ -20,9 +31,56 @@ blockquote {
   margin-right: 55%;
   font-size: 160%;
   background-color: #e6e5ea;
-  border-left: 3px solid #B22222;
   padding-left: 30px;
   padding-right: 20px;
   padding-bottom: 80px;
   padding-top: 80px;
+  font-style: italic;
+}
+
+.vquotes{
+  font-style: italic;
+  border-left: 3px solid #B22222;
+}
+.fquote{
+
+}
+
+header{
+  background-color: #fcf888;
+  width: 100%;
+}
+
+em{
+  text-transform: capitalize;
+}
+
+.bien{
+  color: green;
+}
+.mal{
+  color: red;
+}
+
+table , th, tr{
+  border: 1px solid black;
+}
+
+.white{
+  background-color: white;
+}
+.grey{
+  background-color: #e4e5e3;
+}
+
+.imgbien{
+  background: url("https://github.com/becodeorg/Johnson2/blob/master/02-HTML-CSS/progressive-enhancement/bien.png?raw=true") no-repeat 90% 50%;
+}
+
+.imgmal{
+  background: url("https://github.com/becodeorg/Johnson2/blob/master/02-HTML-CSS/progressive-enhancement/mal.png?raw=true") no-repeat 90% 50%;
+}
+
+.imgchat{
+  background: url("https://github.com/becodeorg/Johnson2/blob/master/02-HTML-CSS/progressive-enhancement/chat.png?raw=true") no-repeat 90% 50%;
 }
